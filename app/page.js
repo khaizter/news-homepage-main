@@ -10,7 +10,7 @@ import TechImage3 from "@/assets/images/image-gaming-growth.jpg";
 export default function Home() {
   return (
     <main className="px-4">
-      <div className="grid lg:grid-cols-3 gap-4">
+      <div className="grid lg:grid-cols-3 gap-8">
         <Image className="lg:hidden" src={HeroImageMobile} alt="hero image" />
         <Image
           className="hidden lg:block col-span-2"
@@ -26,20 +26,20 @@ export default function Home() {
             power of the platforms back into the hands of the people. But is it
             really fulfilling its promise?
           </p>
-          <button className="bg-soft-red text-off-white px-8 py-4 uppercase">
+          <button className="bg-soft-red text-off-white px-8 py-4 uppercase mt-8">
             Read more
           </button>
         </div>
         <div className="lg:row-start-1 lg:col-start-3 lg:row-span-2 p-4 bg-very-dark-blue text-off-white">
-          <h2 className="text-soft-orange text-2xl font-bold">New</h2>
-          <div className="divide-y divide-dark-grayish-blue">
-            <div>
+          <h2 className="text-soft-orange text-3xl font-bold">New</h2>
+          <div className="divide-y divide-dark-grayish-blue mt-6">
+            <div className="py-8 first:pt-0 last:pb-0">
               <h3 className="font-bold text-xl">Hydrogen VS Electrics Cars</h3>
               <p className="text-grayish-blue">
                 Will hydrogen-fueled cars ever catch up to EVs?
               </p>
             </div>
-            <div>
+            <div className="py-8 first:pt-0 last:pb-0">
               <h3 className="font-bold text-xl">
                 The Downsides of AI Artistry
               </h3>
@@ -48,7 +48,7 @@ export default function Home() {
                 generation?
               </p>
             </div>
-            <div>
+            <div className="py-8 first:pt-0 last:pb-0">
               <h3 className="font-bold text-xl">Is VC Funding Drying Up?</h3>
               <p className="text-grayish-blue">
                 Private funding by VC firms is down 15% YOY. We take a look at
