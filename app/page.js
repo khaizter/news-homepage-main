@@ -9,15 +9,17 @@ import TechImage3 from "@/assets/images/image-gaming-growth.jpg";
 
 export default function Home() {
   return (
-    <main>
-      <div className="grid lg:grid-cols-3">
+    <main className="px-4">
+      <div className="grid lg:grid-cols-3 gap-4">
         <Image className="lg:hidden" src={HeroImageMobile} alt="hero image" />
         <Image
           className="hidden lg:block col-span-2"
           src={HeroImageDesktop}
           alt="hero image"
         />
-        <h1 className="text-4xl">The Bright Future of Web 3.0?</h1>
+        <h1 className="text-5xl font-extrabold">
+          The Bright Future of Web 3.0?
+        </h1>
         <div>
           <p className="text-dark-grayish-blue">
             We dive into the next evolution of the web that claims to put the
@@ -29,24 +31,30 @@ export default function Home() {
           </button>
         </div>
         <div className="lg:row-start-1 lg:col-start-3 lg:row-span-2 p-4 bg-very-dark-blue text-off-white">
-          <h2 className="text-soft-orange">New</h2>
-          <div>
-            <h3>Hydrogen VS Electrics Cars</h3>
-            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-          </div>
-          <div>
-            <h3>The Downsides of AI Artistry</h3>
-            <p>
-              What are the possible adverse effects of on-demand AI image
-              generation?
-            </p>
-          </div>
-          <div>
-            <h3>Is VC Funding Drying Up?</h3>
-            <p>
-              Private funding by VC firms is down 15% YOY. We take a look at
-              what that means.
-            </p>
+          <h2 className="text-soft-orange text-2xl font-bold">New</h2>
+          <div className="divide-y divide-dark-grayish-blue">
+            <div>
+              <h3 className="font-bold text-xl">Hydrogen VS Electrics Cars</h3>
+              <p className="text-grayish-blue">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold text-xl">
+                The Downsides of AI Artistry
+              </h3>
+              <p className="text-grayish-blue">
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold text-xl">Is VC Funding Drying Up?</h3>
+              <p className="text-grayish-blue">
+                Private funding by VC firms is down 15% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
           </div>
         </div>
       </div>

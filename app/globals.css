@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 :root {
+  font-family: "Inter", sans-serif;
   --foreground-rgb: hsl(233, 8%, 79%);
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
