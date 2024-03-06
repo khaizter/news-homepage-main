@@ -60,7 +60,7 @@ export default function Home() {
       </div>
       <div className="grid lg:grid-cols-3">
         <div className="flex">
-          <Image src={TechImage1} alt="retro pcs" />
+          <Image className="w-40" src={TechImage1} alt="retro pcs" />
           <div>
             <h2 className="text-grayish-blue">01</h2>
             <div className="text-very-dark-blue">Reviving Retro PCs</div>
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex">
-          <Image src={TechImage2} alt="top laptops" />
+          <Image className="w-40" src={TechImage2} alt="top laptops" />
           <div>
             <h2 className="text-grayish-blue">02</h2>
             <div className="text-very-dark-blue">Top 10 Laptops of 2022</div>
@@ -80,7 +80,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex">
-          <Image src={TechImage3} alt="gaming growth" />
+          <Image className="w-40" src={TechImage3} alt="gaming growth" />
           <div>
             <h2 className="text-grayish-blue">03</h2>
             <div className="text-very-dark-blue">The growth of Gaming</div>
