@@ -9,7 +9,7 @@ import TechImage3 from "@/assets/images/image-gaming-growth.jpg";
 
 export default function Home() {
   return (
-    <main className="px-4">
+    <main className="px-4 md:px-8 pb-12 max-w-screen-xl ml-auto mr-auto">
       <div className="grid lg:grid-cols-3 gap-8">
         <Image className="lg:hidden" src={HeroImageMobile} alt="hero image" />
         <Image
@@ -26,7 +26,7 @@ export default function Home() {
             power of the platforms back into the hands of the people. But is it
             really fulfilling its promise?
           </p>
-          <button className="bg-soft-red text-off-white px-8 py-4 uppercase mt-8">
+          <button className="bg-soft-red text-off-white px-8 py-4 uppercase mt-8 text-sm tracking-[.25em] font-bold">
             Read more
           </button>
         </div>
@@ -58,32 +58,38 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="grid lg:grid-cols-3">
+      <div className="grid lg:grid-cols-3 mt-8 gap-8">
         <div className="flex">
-          <Image className="w-40" src={TechImage1} alt="retro pcs" />
-          <div>
-            <h2 className="text-grayish-blue">01</h2>
-            <div className="text-very-dark-blue">Reviving Retro PCs</div>
+          <Image className="w-32 h-36" src={TechImage1} alt="retro pcs" />
+          <div className="ml-6">
+            <h2 className="text-grayish-blue text-3xl font-extrabold">01</h2>
+            <div className="text-very-dark-blue font-extrabold text-lg">
+              Reviving Retro PCs
+            </div>
             <p className="text-dark-grayish-blue">
               What happens when old PCs are given modern upgrades?
             </p>
           </div>
         </div>
         <div className="flex">
-          <Image className="w-40" src={TechImage2} alt="top laptops" />
-          <div>
-            <h2 className="text-grayish-blue">02</h2>
-            <div className="text-very-dark-blue">Top 10 Laptops of 2022</div>
+          <Image className="w-32 h-36" src={TechImage2} alt="top laptops" />
+          <div className="ml-6">
+            <h2 className="text-grayish-blue text-3xl font-extrabold">02</h2>
+            <div className="text-very-dark-blue font-extrabold text-lg">
+              Top 10 Laptops of 2022
+            </div>
             <p className="text-dark-grayish-blue">
               Our best picks for various needs and budgets.
             </p>
           </div>
         </div>
         <div className="flex">
-          <Image className="w-40" src={TechImage3} alt="gaming growth" />
-          <div>
-            <h2 className="text-grayish-blue">03</h2>
-            <div className="text-very-dark-blue">The growth of Gaming</div>
+          <Image className="w-32 h-36" src={TechImage3} alt="gaming growth" />
+          <div className="ml-6">
+            <h2 className="text-grayish-blue text-3xl font-extrabold">03</h2>
+            <div className="text-very-dark-blue font-extrabold text-lg">
+              The growth of Gaming
+            </div>
             <p className="text-dark-grayish-blue">
               How the pandemic has sparked fresh opportunities
             </p>

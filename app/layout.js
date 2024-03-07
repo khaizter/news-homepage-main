@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header className="flex items-center justify-between px-4">
+        <header className="flex items-center justify-between py-8 lg:py-12 px-4 md:px-8 max-w-screen-xl ml-auto mr-auto">
           <Image src={Logo} alt="logo" />
           <Navigation />
         </header>
