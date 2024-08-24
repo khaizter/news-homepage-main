@@ -11,7 +11,11 @@ export default function Home() {
   return (
     <main className="px-4 md:px-8 pb-12 max-w-screen-xl ml-auto mr-auto">
       <div className="grid lg:grid-cols-3 gap-8">
-        <Image className="lg:hidden" src={HeroImageMobile} alt="hero image" />
+        <Image
+          className="lg:hidden mx-auto"
+          src={HeroImageMobile}
+          alt="hero image"
+        />
         <Image
           className="hidden lg:block col-span-2"
           src={HeroImageDesktop}

@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
           <Navigation />
         </header>
         {children}
+        <div id="menu-portal"></div>
       </body>
     </html>
   );
