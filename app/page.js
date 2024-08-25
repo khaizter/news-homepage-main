@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import HeroImageMobile from "@/assets/images/image-web-3-mobile.jpg";
 import HeroImageDesktop from "@/assets/images/image-web-3-desktop.jpg";
 
